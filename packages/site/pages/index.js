@@ -7,10 +7,12 @@ import FunFacts from '../components/FunFacts'
 import Pricing from '../components/Pricing'
 import Testimonials from '../components/Testimonials'
 import Media from '../components/Media'
+import Flash from '../components/Flash'
 
 const HomePage = () => {
   return (
     <>
+      <Flash />
       <Banner />
       <Features />
       <FunFacts />
